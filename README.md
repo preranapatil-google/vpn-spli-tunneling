@@ -1,18 +1,16 @@
 ## VPN service builder library for ARC++
 This library exposes the VPN split tunneling apis in ARC.
 
-1. 
-```
+1. ```
 public static void excludeRoute(
       @NonNull Context context, @NonNull VpnService.Builder builder, @NonNull IpPrefix prefix)
-```
+    ```
    This api is used to exclude a network route from VPN interface.
    
-2. 
-```
+2. ```
 public static void addRoute(
       @NonNull Context context, @NonNull VpnService.Builder builder, @NonNull IpPrefix prefix)
-```
+    ```
 
    This api is used to add a network route to VPN interface.
 
