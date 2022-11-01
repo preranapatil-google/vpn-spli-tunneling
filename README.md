@@ -22,7 +22,8 @@ This library exposes the VPN split tunneling apis in ARC.
     VpnService mService = new VpnService();
     VpnService.Builder mBuilder = mService.new Builder();
     ```
-Configure ```mBuilder``` as you want
+   Configure ```mBuilder``` as you want
+   
 4. You can call the above apis in the following way 
    * excludeRoute:
 
